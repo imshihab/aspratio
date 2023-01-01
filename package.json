@@ -1,6 +1,6 @@
 {
 	"name": "aspratio",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "To get aspect-ratio of 'screen size or image'",
 	"main": "./dist/cjs/index.js",
 	"module": "./dist/esm/index.js",
@@ -9,7 +9,7 @@
 	],
 	"scripts": {
 		"tsc": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
-		"prepublish": "npm run tsc"
+		"prepublishOnly": "npm run tsc"
 	},
 	"repository": {
 		"type": "git",
