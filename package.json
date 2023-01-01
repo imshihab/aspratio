@@ -1,0 +1,36 @@
+{
+	"name": "aspratio",
+	"version": "1.0.0",
+	"description": "To get aspect-ratio of 'screen size or image'",
+	"main": "./dist/cjs/index.js",
+	"module": "./dist/esm/index.js",
+	"files": [
+		"dist/"
+	],
+	"scripts": {
+		"tsc": "tsc -p tsconfig.esm.json && tsc -p tsconfig.cjs.json",
+		"prepublish": "npm run tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/imshihab/aspratio.git"
+	},
+	"keywords": [
+		"aspect",
+		"ratio",
+		"aspect-ratio"
+	],
+	"author": {
+		"name": "Saharia Shihab",
+		"url": "http://github.com/imshihab/",
+		"email": "imsahariashihab@gmail.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/imshihab/aspratio/issues"
+	},
+	"homepage": "https://github.com/imshihab/aspratio#readme",
+	"devDependencies": {
+		"typescript": "^4.9.4"
+	}
+}
